@@ -1,0 +1,25 @@
+set_global_assignment -entity "lab61soc" -library "lab61soc" -name IP_TOOL_NAME "Qsys"
+set_global_assignment -entity "lab61soc" -library "lab61soc" -name IP_TOOL_VERSION "18.1"
+set_global_assignment -entity "lab61soc" -library "lab61soc" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -library "lab61soc" -name SOPCINFO_FILE [file join $::quartus(qip_path) "../../../lab61soc.sopcinfo"]
+set_global_assignment -entity "lab61soc" -library "lab61soc" -name SLD_INFO "QSYS_NAME lab61soc HAS_SOPCINFO 1 GENERATION_ID 1679526849"
+set_global_assignment -library "lab61soc" -name SLD_FILE [file join $::quartus(qip_path) "lab61soc.debuginfo"]
+set_global_assignment -entity "lab61soc" -library "lab61soc" -name IP_TARGETED_DEVICE_FAMILY "MAX 10"
+set_global_assignment -entity "lab61soc" -library "lab61soc" -name IP_GENERATED_DEVICE_FAMILY "{MAX 10}"
+set_global_assignment -entity "lab61soc" -library "lab61soc" -name IP_QSYS_MODE "SYSTEM"
+set_global_assignment -name SYNTHESIS_ONLY_QIP ON
+set_global_assignment -library "lab61soc" -name MISC_FILE [file join $::quartus(qip_path) "../../../lab61soc.qsys"]
+set_global_assignment -entity "lab61soc" -library "lab61soc" -name IP_COMPONENT_NAME "bGFiNjFzb2M="
+set_global_assignment -entity "lab61soc" -library "lab61soc" -name IP_COMPONENT_DISPLAY_NAME "bGFiNjFzb2M="
+set_global_assignment -entity "lab61soc" -library "lab61soc" -name IP_COMPONENT_REPORT_HIERARCHY "On"
+set_global_assignment -entity "lab61soc" -library "lab61soc" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "lab61soc" -library "lab61soc" -name IP_COMPONENT_VERSION "MS4w"
+set_global_assignment -entity "lab61soc" -library "lab61soc" -name IP_COMPONENT_PARAMETER "QVVUT19HRU5FUkFUSU9OX0lE::MTY3OTUyNjg0OQ==::QXV0byBHRU5FUkFUSU9OX0lE"
+set_global_assignment -entity "lab61soc" -library "lab61soc" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfRkFNSUxZ::TUFYIDEw::QXV0byBERVZJQ0VfRkFNSUxZ"
+set_global_assignment -entity "lab61soc" -library "lab61soc" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0U=::MTBNNTBEQUY0ODRDN0c=::QXV0byBERVZJQ0U="
+set_global_assignment -entity "lab61soc" -library "lab61soc" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfU1BFRURHUkFERQ==::Nw==::QXV0byBERVZJQ0VfU1BFRURHUkFERQ=="
+set_global_assignment -entity "lab61soc" -library "lab61soc" -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfQ0xPQ0tfUkFURQ==::LTE=::QXV0byBDTE9DS19SQVRF"
+set_global_assignment -entity "lab61soc" -library "lab61soc" -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfQ0xPQ0tfRE9NQUlO::LTE=::QXV0byBDTE9DS19ET01BSU4="
+set_global_assignment -entity "lab61soc" -library "lab61soc" -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfUkVTRVRfRE9NQUlO::LTE=::QXV0byBSRVNFVF9ET01BSU4="
+
+set_global_assignment -library "lab61soc" -name VERILOG_FILE [file join $::quartus(qip_path) "lab61soc.v"]
