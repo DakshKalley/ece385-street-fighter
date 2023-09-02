@@ -14,7 +14,7 @@ Overview
 --------
 
 This is the final project for my ECE 385 course at UIUC.
-The project consists of circuitry on a DE2-115 board and softwares running on NIOS-II soft processor.
+The project consists of circuitry on a MAX10-DE10 Lite FPGA and softwares running on NIOS-II soft processor.
 
 A more detailed pdf writeup is included in this repository.
 
